@@ -100,7 +100,7 @@
    background-color: #ccc;
 }
 
-#backgroundtext1 {
+#backgroundtext1,#backgroundtext3,#backgroundtext5,#backgroundtext7{
    background-color: rgb(22, 22, 33);
    color: rgb(229, 229, 229);
 }
@@ -122,17 +122,31 @@
    margin-bottom: 8%;
 }
 #text .section-sub {
-   font-size: px;
+   font-size: 30px;
    text-align: center;
-   margin-top: 1%;
-   font-style: italic;
+   margin-bottom: 5%;
+   font-style: italic; 
    opacity: 0.6;
 }
- 
+#text #section-sub-1 {
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 5%;
+   font-style: italic; 
+   opacity: 0.6;
+}
+#text #section-sub-2 {
+   font-size: 30px;
+   text-align: center;
+   margin-bottom: 5%;
+   font-style: italic; 
+   opacity: 0.6;
+}
+
 #text .about {
    font-size: 15px;
    text-align: justify;
-   margin-bottom: 5%;
+   margin-bottom: 3%;
    line-height: 1.6;
 }
 
@@ -140,12 +154,24 @@
    font-size: 20px;
    text-align: left;
    color:rgb(139, 116, 247);
-   margin-bottom: 1%;
+   margin-bottom: 0.5%;
 }
 
 
 
-#backgroundtext2 {
+#backgroundtext2,#backgroundtext4,#backgroundtext6{
    background-color: rgb(29, 31, 41);
    color: rgb(229, 229, 229);
+}
+
+.WordSection1{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+
+.WordSection1 .a{
+      width: 80%;
 }
